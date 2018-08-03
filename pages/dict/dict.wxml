@@ -1,0 +1,10 @@
+<view class='container'>
+	<view>
+		<text>点击(按键时间小于350ms)一次为"·"\n
+		长按(按键时间小于1000ms)一次为"—"\n
+		长按时间大于1000ms后翻译</text>
+	</view>
+	<view>
+		<image src='../../images/dict.png'></image>
+	</view>
+</view>

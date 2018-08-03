@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="container" >
+	<!-- <view class='cont'>
+		<textarea id='output' >{{transVacabulary}}</textarea> 
+	</view> -->
+	<view id='output'>
+		{{transVacabulary}}
+	</view>
+	<view class="fillContainClick"  bindtouchstart='touchStart' bindtouchend='touchEnd' bindtap='morseJudge' >
+	</view>
+
+	<view class='menus'>
+    	<image src='/images/button0.png'  class="menu" animation="{{animationOne}}" 	
+		bindtap="menuOne"  style='top:{{pos.top}}px;left:{{pos.left}}px;'></image>
+    	<image src='/images/button1.png'  class="menu" animation="{{animationTwo}}" 
+		bindtap="menuTwo"  style='top:{{pos.top}}px;left:{{pos.left}}px;'></image>
+    	<image src='/images/button2.png'  class="menu" animation="{{animationThree}}"
+		bindtap="menuThree"  style='top:{{pos.top}}px;left:{{pos.left}}px;'></image>
+		<image src='/images/button3.png'  class='menu' animation="{{animationFour}}"
+		bindtap='menuFour' style='top:{{pos.top}}px;left:{{pos.left}}px'></image>
+    	<image src="/images/menu.png"  class="menu main" animation="{{animationMain}}"
+		bindtap="menuMain" style='top:{{pos.top}}px;left:{{pos.left}}px;'>
+		</image>
+	</view> 
+</view>
