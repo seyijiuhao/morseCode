@@ -1,0 +1,13 @@
+{
+  "pages":[
+	"pages/home/home",
+    "pages/index/index",
+	"pages/dict/dict"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Y-Morse",
+    "navigationBarTextStyle":"black"
+  }
+}
